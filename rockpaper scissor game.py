@@ -4,6 +4,7 @@ running=True
 while running:
     player = None
     computer = random.choice(options)
+    print(" select rock ,paper,scisssors")
     while player not in options:
         player=input("enter your choice").lower()
     print(f"player : {player}")
